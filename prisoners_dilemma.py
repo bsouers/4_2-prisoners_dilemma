@@ -20,9 +20,7 @@ from __future__ import print_function
 # Each strategy is pitted against each other strategy for 100 to 200 rounds.
 # The results of all previous rounds within a 100-200 round stretch are known
 # to both players. 
-#
 # play_tournament([team0, team1, team2]) executes a tournament and writes to tournament.txt
-#
 # Each team's strategy should be coded in their assigned Python file, called a module.
 # Each player should have their own .py file containing 
 # three strings team_name, strategy_name, and strategy_description
@@ -383,5 +381,4 @@ def post_to_file(string, filename='tournament.txt', directory=''):
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
-    
-    
+   
