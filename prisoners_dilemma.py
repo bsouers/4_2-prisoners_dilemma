@@ -1,6 +1,7 @@
 from __future__ import print_function
 
 ##### 
+# Hi
 # Computer Science and Software Engineering
 # PLTW AP CS Principles
 # (c)2014 Project Lead The Way, Inc.
@@ -381,6 +382,4 @@ if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
     
-def team_name:
-    team_name = 'The name the team gives itself'
     
