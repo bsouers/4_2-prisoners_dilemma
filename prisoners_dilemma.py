@@ -71,13 +71,16 @@ def main_play(modules):
     return scores, moves, [section0, section1, section2, section3]
         
 def play_tournament(modules):
-    '''Each argument is a module name
-    Each module must contain 
-        team_name: a string
-        strategy_name: a string
-        strategy_description: a string
+    team_name = 'Mycodeisbetterthanurs
+    strategy_name = 'Betray everytime'
+    stategy_description = '''\
+    Betray every round. Betray, except in a round after getting a severe punishment.'''
+    
+    
+    
+
         move: A function that returns 'c' or 'b'
-    '''
+    
     zeros_list = [0]*len(modules) # to initialize each player's head-to-head scores
     scores = [zeros_list[:] for module in modules] # Copy it or it's only 1 list
     moves = [zeros_list[:] for module in modules] # Copy it or it's only 1 list
